@@ -37,7 +37,7 @@ Major releases may remove rules.
 | :-------------------------------------------- | :------------------------------------------------------ | :-------------------- | :------------------------- |
 | **New Technologies**                          |                                                         |                       |                            |
 | Support for new technologies\*                | May add support                                         | May add support       | Will not add support       |
-| **APIS**                                      |                                                         |                       |                            |
+| **APIs**                                      |                                                         |                       |                            |
 | API signatures and return values of functions | May break                                               | Will not break        | Will not break             |
 | APIs deprecated                               | May be deprecated                                       | May be deprecated     | Will not be deprecated     |
 | APIs removed                                  | May be removed (will remove previously deprecated APIs) | Will not be removed   | Will not be removed        |
@@ -69,7 +69,7 @@ A custom rule configuration may return different results (more or fewer) when ru
 
 A major release may completely break a custom rule or even all custom rules because of a change to any of the APIs.
 
-### Table: Implication of axe-core Updates on Custom Rule Function
+#### Table: Implication of axe-core Updates on Custom Rule Function
 
 | Axe-core Release Semantic Version              | Example | Simple Custom Rules    | Complex Custom Rules   |
 | :--------------------------------------------- | :------ | :--------------------- | :--------------------- |
